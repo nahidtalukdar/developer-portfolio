@@ -111,7 +111,7 @@ font-size: 35px;
 
 }
 /* what i do style */
-section{
+.section{
     margin-top: 130px;
 }
 .section-title{
@@ -171,11 +171,31 @@ padding: 30px;
     font-size: 30px;
     color: #474747;
 }
-.resume-btn{
-    position: absolute;
-width: 200px;
-height: 64px;
-left: 700px;
-top: 3312px;
-text-align: center;
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact style */
+.contact .section-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact input[type=text], input[type=email], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
